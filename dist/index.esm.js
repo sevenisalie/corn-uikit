@@ -2851,13 +2851,13 @@ var ResetCSS = createGlobalStyle(templateObject_1$K || (templateObject_1$K = __m
 var templateObject_1$K;
 
 var baseColors = {
-    failure: "#ED4B9E",
-    primary: "#aa8929",
-    primaryBright: "#aa8929",
-    primaryDark: "#aa8929",
-    secondary: "#7645D9",
+    failure: "#D93F07",
+    primary: "#038C33",
+    primaryBright: "#F2AE30",
+    primaryDark: "#F2AE30",
+    secondary: "#F2CB05",
     success: "#31D0AA",
-    warning: "#FFB237",
+    warning: "#F27D16",
 };
 var brandColors = {
     binance: "#F0B90B",
@@ -2868,7 +2868,7 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), {
     contrast: "#191326",
     invertedContrast: "#FFFFFF",
     input: "#eeeaf4",
-    tertiary: "#EFF4F5",
+    tertiary: "#F2CB05",
     text: "#038C33",
     textDisabled: "#BDC2C4",
     textSubtle: "#04be45",
@@ -2879,11 +2879,13 @@ var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), {
     }
  });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { 
+    secondary: "#191326",
     background: "#f8f1cd",
     backgroundDisabled: "#fbf7e3",
     contrast: "#191326",
     invertedContrast: "#FFFFFF",
     input: "#eeeaf4",
+    primaryDark: "#EFF4F5",
     tertiary: "#EFF4F5",
     text: "#038C33",
     textDisabled: "#BDC2C4",
@@ -2891,7 +2893,7 @@ var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), {
     borderColor: "#e9d35d",
     card: "#F2E5A0",
     gradients: {
-      bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
+        bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     }
  });
 
